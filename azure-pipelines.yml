@@ -6,7 +6,8 @@
 trigger:
 - master
 
-pool: default
+pool: 
+  name: Default
 #  vmImage: 'ubuntu-latest'
 strategy:
   matrix:
